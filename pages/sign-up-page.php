@@ -1,0 +1,55 @@
+<?php
+    include '../db-conn.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <!-- buttons for Home Page and Login -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-end py-4">
+                <a href="../index.php" class="btn btn-primary mb-4">Home Page</a>
+                <a href="./login-page.php" class="btn btn-secondary mb-4">Login</a>
+            </div>
+    </div>
+
+    <!-- Sign Up form -->
+    <h1 class="text-center py-4 my-1">User Sign-Up</h1>
+    <div class="w-50 m-auto">
+    <form action="../function/sign-up.php" method="post" autocomplete="off">
+        <div class="form-group">
+            <label for="fname">First Name</label>
+            <input class="form-control" type="text" name="fname" id="fname" placeholder="Enter first name" Required>
+        </div>
+        <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input class="form-control" type="text" name="lname" id="lname" placeholder="Enter last name" Required>
+        </div>
+        <div class="form-group">
+            <label for="birthday">Birthday</label>
+            <input class="form-control" type="date" name="birthday" id="birthday" Required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input class="form-control" type="text" name="address" id="address" placeholder="Enter address" Required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control" type="text" name="email" id="email" placeholder="Enter email" Required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input class="form-control" type="password" name="password" id="password" placeholder="Enter password" Required>
+        </div><br>
+        <button class="btn btn-primary">Sign Up</button><br><br>
+    </form>
+    </div>
+</body>
