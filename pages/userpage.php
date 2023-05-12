@@ -15,8 +15,22 @@
                 <a href="../index.php" class="btn btn-primary mb-4">Home Page</a> 
             </div>
     </div>
+    <!-- content -->
     <div class="d-flex justify-content-center my-4">
-        <h1 class="text-center py-4 my-5 text-primary">welcome to ur dashboard</h1>>
+        <img src="https://media.tenor.com/KiUfiJ7cvc4AAAAM/cat-sombrero.gif" class="mx-auto">
+        <img src="https://media.tenor.com/KiUfiJ7cvc4AAAAM/cat-sombrero.gif" class="mx-auto">
+    </div>
+    <div class="d-flex justify-content-center my-4">
+        <h1 class="text-center py-4 my-5 text-primary">welcome to ur dashboard <?php echo "<3";?> </h1>
+    </div>
+    <div class="d-flex justify-content-center">
+        <img src="https://media.tenor.com/KiUfiJ7cvc4AAAAM/cat-sombrero.gif" class="mx-auto">
+        <img src="https://media.tenor.com/KiUfiJ7cvc4AAAAM/cat-sombrero.gif" class="mx-auto">
+    </div>
+    <div class="d-flex justify-content-center">
+        <audio controls autoplay>
+            <source src="../un.mp3" type="audio/mpeg">
+        </audio>
     </div>
 </body>
 </html>

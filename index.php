@@ -17,5 +17,8 @@
         </div>
     </div>
     <h1 class="text-center py-4 my-5">WELCOME!</h1>
+    <div class="d-flex justify-content-center my-4">
+        <img src="https://media.tenor.com/UNaQFutfOF0AAAAC/banana-crying-cat.gif" class="mx-auto">
+    </div>
 </body>
 </html>

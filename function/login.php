@@ -11,8 +11,5 @@
         if($resultUser){
             header("location: ../pages/userpage.php");
         }
-        else{
-            echo "Error";
-        }
     } 
 ?>
