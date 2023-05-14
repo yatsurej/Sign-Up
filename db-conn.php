@@ -1,4 +1,5 @@
 <?php
+    //credentials are from my Infinityfree subdomain
     $host="sql106.epizy.com";
     $user="epiz_34189503";
     $pass="J01E5JIVt4bmK4O";
