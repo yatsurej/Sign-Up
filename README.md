@@ -3,4 +3,4 @@
 
  All of which are working under a web hosting website called infinityfree.
 
- URL of this activity: http://apolonio.infinityfreeapp.com
+ URL of this activity: http://apolonio.infinityfreeapp.com (inactive now)
